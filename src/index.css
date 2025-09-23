@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom small utilities to keep markup tidy */
+:root {
+  --brand: #FF7A00; /* warm accent */
+  --muted: #6B7280;
+}
+body { @apply text-gray-900; }
+.card { @apply bg-white rounded-2xl shadow p-6; }
+.input { @apply border rounded-lg px-3 py-2 w-full; }
+.label { @apply text-sm font-medium text-gray-700; }
+.navlink { @apply text-gray-700 hover:text-gray-900; }
